@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 90px;
+  padding-top: 100px;
   background: #e81f1f;
 }
 
@@ -13,21 +13,24 @@ body {
 }
 
 #logo {
-  width: 250px;
+  width: 500px;
   height: auto;
-  color: #fff;
+}
+
+.navbar {
+  min-height: 100px;
 }
 
 .navbar-fixed-top {
-  border-bottom: 1px solid #cccccc;
   background: #fff;
 }
+
 .navbar-fixed-top .navbar-brand {
-  padding: 0 15px;
+  padding: 25px 15px;
 }
 
 .navbar-fixed-top .nav {
-  padding: 15px 0;
+  padding: 25px 0;
 }
 
 .nav li a {
@@ -42,4 +45,24 @@ body {
   color: #ffffff;
   border-radius: 8px;
   margin-left: 10px;
+}
+.jumbotron h1 {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+}
+.jumbotron p {
+  font-weight: light;
+  font-size: 24px;
+  color: #ffffff;
+}
+.jumbotron {
+  background: #e81f1f;
+  align-items: center;
+  background: url('./assets/img/JHD-collage.png') no-repeat bottom right;
+  background-size: contain;
+  display: -webkit-flex;
+  display: flex;
+  height: 900px;
+  width: 100%;
 }
