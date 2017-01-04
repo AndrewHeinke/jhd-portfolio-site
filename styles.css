@@ -1,0 +1,45 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 90px;
+  background: #e81f1f;
+}
+
+.navbar-toggle .icon-bar {
+  background: #e81f1f;
+  display: block;
+  width: 30px;
+  height: 4px;
+  border-radius: 1px;
+}
+
+#logo {
+  width: 250px;
+  height: auto;
+  color: #fff;
+}
+
+.navbar-fixed-top {
+  border-bottom: 1px solid #cccccc;
+  background: #fff;
+}
+.navbar-fixed-top .navbar-brand {
+  padding: 0 15px;
+}
+
+.navbar-fixed-top .nav {
+  padding: 15px 0;
+}
+
+.nav li a {
+  font-size: 1.15em;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#work-link {
+  background: #e81f1f;
+  color: #ffffff;
+  border-radius: 8px;
+  margin-left: 10px;
+}
