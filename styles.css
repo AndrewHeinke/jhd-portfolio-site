@@ -13,12 +13,13 @@ body {
 }
 
 #logo {
-  width: 500px;
+  width: 550px;
   height: auto;
 }
 
 .navbar {
   min-height: 100px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
 }
 
 .navbar-fixed-top {
@@ -36,8 +37,7 @@ body {
 .nav li a {
   font-size: 1.15em;
   color: black;
-  padding-left: 10px;
-  padding-right: 10px;
+  text-transform: uppercase;
 }
 
 #work-link {
@@ -52,7 +52,7 @@ body {
   font-size: 80px;
 }
 .jumbotron p {
-  font-weight: light;
+  font-weight: 300;
   font-size: 24px;
   color: #ffffff;
 }
@@ -65,4 +65,28 @@ body {
   display: flex;
   height: 900px;
   width: 100%;
+}
+.jumbotron .btn {
+  color: #e81f1f;
+  background: #fff;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 10px;
+  font-weight: 700;
+  background-image: url('./assets/img/EYE.svg');
+  background-position: 10px 12px !important;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  box-shadow:rgba(0, 0, 0, 0.2) 0 16px 16px 0;
+  -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0 16px 16px 0;
+  -moz-box-shadow:rgba(0, 0, 0, 0.2) 0 16px 16px 0;
+}
+
+.jumbotron .btn:hover {
+  box-shadow:rgba(0, 0, 0, 0.2) 0 8px 8px 0;
+  -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0 8px 8px 0;
+  -moz-box-shadow:rgba(0, 0, 0, 0.2) 0 8px 8px 0;
+  opacity: 0.9;
 }
