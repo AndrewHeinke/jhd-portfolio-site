@@ -39,12 +39,19 @@ body {
   color: black;
   text-transform: uppercase;
 }
-
+.nav li a:hover {
+  background: none;
+  color: #e81f1f;
+  cursor: pointer;
+}
 #work-link {
   background: #e81f1f;
   color: #ffffff;
   border-radius: 8px;
   margin-left: 10px;
+}
+#work-link:hover {
+  background: #000;
 }
 .jumbotron h1 {
   font-weight: 700;
@@ -104,6 +111,30 @@ body {
 
 .office-image {
   width: 100%;
+}
+.footer-tagline {
+  color: #e81f1f;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1;
+}
+footer {
+  background: #fff;
+  padding: 30px 0;
+}
+footer .contact-details {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+#contact-links {
+  font-size: 24px;
+  font-weight: 300;
+}
+#address {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 
