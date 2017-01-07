@@ -50,21 +50,27 @@ body {
   font-weight: 700;
   color: #ffffff;
   font-size: 5em;
+  margin-bottom: 20px;
 }
 .jumbotron p {
   font-weight: 300;
   font-size: 24px;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 .jumbotron {
   background: #e81f1f;
   align-items: center;
-  background: url('./assets/img/JHD-collage.png') no-repeat bottom right;
+  background: -moz-linear-gradient(left, rgba(232,31,31,1) 0%, rgba(0,15,255,0) 100%), url('./assets/img/JHD-collage.png') no-repeat bottom right; /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(232,31,31,1) 0%,rgba(0,15,255,0) 100%), url('./assets/img/JHD-collage.png') no-repeat bottom right; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(232,31,31,1) 0%,rgba(0,15,255,0) 100%), url('./assets/img/JHD-collage.png') no-repeat bottom right; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e81f1f', endColorstr='#00000fff',GradientType=1 ); /* IE6-9 */
   background-size: contain;
   display: -webkit-flex;
   display: flex;
   height: 800px;
   width: 100%;
+  margin-bottom: 0px;
 }
 .jumbotron .btn {
   color: #e81f1f;
@@ -93,7 +99,17 @@ body {
 
 .content-copy {
   text-align: left;
+  top: -90px;
 }
+
+.office-image {
+  width: 100%;
+}
+
+
+
+
+
 /*Media Queries*/
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -102,6 +118,7 @@ body {
     padding-bottom: 75px;
     text-align: center;
     width: 100%;
+    top: 0px;
   }
   #logo {
     width: 350px;
@@ -111,10 +128,16 @@ body {
     height: auto;
     background: none;
   }
+  .jumbotron {
+    background: -moz-linear-gradient(bottom, rgba(232,31,31,1) 0%, rgba(0,15,255,0) 100%), url('./assets/img/collage-mobile2.jpg') no-repeat bottom center; /* FF3.6-15 */
+    background: -webkit-linear-gradient(bottom, rgba(232,31,31,1) 0%,rgba(0,15,255,0) 100%), url('./assets/img/collage-mobile2.jpg') no-repeat bottom center; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to top, rgba(232,31,31,1) 0%,rgba(0,15,255,0) 100%), url('./assets/img/collage-mobile2.jpg') no-repeat bottom center; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
   .jumbotron h1 {
     font-size: 3em;
   }
@@ -136,5 +159,8 @@ body {
   }
   .content {
     padding: 0 20px;
+  }
+  .content-copy {
+    top: -65px;
   }
 }
