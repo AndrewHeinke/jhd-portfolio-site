@@ -160,9 +160,9 @@ footer .contact-details {
     background: none;
   }
   .jumbotron {
-    background: -moz-linear-gradient(bottom, rgba(232,31,31,1) 0%, rgba(0,15,255,0) 100%), url('./assets/img/collage-mobile2.jpg') no-repeat bottom center; /* FF3.6-15 */
-    background: -webkit-linear-gradient(bottom, rgba(232,31,31,1) 0%,rgba(0,15,255,0) 100%), url('./assets/img/collage-mobile2.jpg') no-repeat bottom center; /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to top, rgba(232,31,31,1) 0%,rgba(0,15,255,0) 100%), url('./assets/img/collage-mobile2.jpg') no-repeat bottom center; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(bottom, rgba(232,31,31,1) 0%, rgba(0,15,255,0) 100%), url('./assets/img/collage-mobile3.jpg') no-repeat bottom center; /* FF3.6-15 */
+    background: -webkit-linear-gradient(bottom, rgba(232,31,31,1) 0%,rgba(0,15,255,0) 100%), url('./assets/img/collage-mobile3.jpg') no-repeat bottom center; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to top, rgba(232,31,31,1) 0%,rgba(0,15,255,0) 100%), url('./assets/img/collage-mobile3.jpg') no-repeat bottom center; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   }
 }
 
