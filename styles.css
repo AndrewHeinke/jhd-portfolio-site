@@ -128,6 +128,10 @@ p {
 }
 
 /*about us page styles*/
+.red.container {
+  width: 100%;
+  padding: 0;
+}
 .about-us p {
   color: #fff;
 }
