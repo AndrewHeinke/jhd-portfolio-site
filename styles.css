@@ -155,7 +155,6 @@ p {
 
 
 /*footer styles*/
-
 .footer-tagline {
   color: #e81f1f;
   font-size: 50px;
@@ -181,7 +180,6 @@ footer .contact-details {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-
 
 
 
@@ -250,5 +248,24 @@ footer .contact-details {
   }
   p {
     font-size: 18px;
+  }
+
+  .footer-tagline {
+    font-size: 32px;
+  }
+  footer .contact-details {
+    font-size: 20px;
+  }
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .about-us .bio {
+    background: #000;
+    padding: 20px;
+  }
+
+  .one-line {
+   white-space: nowrap;
   }
 }
