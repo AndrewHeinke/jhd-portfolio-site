@@ -213,6 +213,37 @@ p {
   margin-bottom: 30px;
 }
 
+/*Contact Us Page*/
+.contact-us h1 {
+  font-size: 4.5em;
+  margin-bottom: 50px;
+}
+.contact-us p {
+  color: #fff;
+}
+.contact-us-area {
+  background: #000;
+  padding: 30px;
+}
+
+.contact-us-area p {
+  font-size: 35px;
+  line-height: 1.25;
+}
+.contact-us-area a {
+  color: #fff;
+}
+.contact-us-area .office-address {
+  margin-top: 50px;
+}
+.contact-us .office-image {
+  display: inline-block;
+  position: absolute;
+  float: right;
+  width: 413px;
+  height: auto;
+}
+
 
 /*footer styles*/
 .footer-tagline {
@@ -244,14 +275,16 @@ footer .contact-details {
   margin-bottom: 30px;
 }
 
+
+/*Media Queries*/
+/* Medium Devices, Desktops */
 @media only screen and (max-width: 1190px) {
   .jumbotron {
     background: -moz-linear-gradient(to right, rgba(232,31,31,1) 0%, rgba(232,31,31,0) 100%), url('./assets/img/JHD-collage.png') no-repeat bottom right; /* FF3.6-15 */
     background: -webkit-linear-gradient(to right, rgba(232,31,31,1) 0%,rgba(232,31,31,0) 100%), url('./assets/img/JHD-collage.png') no-repeat bottom right; /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, rgba(232,31,31,1) 0%,rgba(232,31,31,0) 100%), url('./assets/img/JHD-collage.png') no-repeat bottom right; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
-/*Media Queries*/
-/* Medium Devices, Desktops */
+
 @media only screen and (max-width : 992px) {
   .content-copy {
     margin: auto;
@@ -444,5 +477,8 @@ footer .contact-details {
   }
   .card-title {
     font-size: 18px;
+  }
+  .contact-us-area p {
+    font-size: 28px;
   }
 }
