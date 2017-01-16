@@ -200,8 +200,6 @@ transform: rotate(-135deg);
   box-shadow:rgba(0, 0, 0, 0.2) 0 16px 16px 0;
   -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0 16px 16px 0;
   -moz-box-shadow:rgba(0, 0, 0, 0.2) 0 16px 16px 0;
-
-
 }
 
 .jumbotron .btn:hover {
@@ -307,6 +305,9 @@ width: 100%;
   text-transform: uppercase;
   font-weight: 400;
   text-align: center;
+}
+.card-title:hover {
+  cursor: pointer;
 }
 
 .card {
@@ -516,6 +517,24 @@ footer .contact-details {
     .navbar-fixed-top .nav {
       padding: 15px 0 30px;
     }
+    .sliding-middle-out {
+      display: inline-block;
+      position: relative;
+      padding-bottom: 5px;
+    }
+    .sliding-middle-out:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 0px;
+      width: 0px;
+      background: transparent;
+      transition: none;
+    }
+    .sliding-middle-out:hover:after {
+      width: 100%;
+      background: transparent;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -528,7 +547,7 @@ footer .contact-details {
     font-size: 24px;
   }
   .navbar-toggle {
-    margin-right: 10px;
+    margin-right: 15px;
   }
 }
 
@@ -603,8 +622,14 @@ footer .contact-details {
     padding: 20px 0;
   }
   .flex-row > [class*='col-'] {
-			width: 100%;
+			width: 50%;
 	}
+  .flex-row .col-md-4:nth-child(2n+1) {
+    padding-right: 5px;
+  }
+  .flex-row .col-md-4:nth-child(2n) {
+    padding-left: 5px;
+  }
 	.flex-row  {
     padding-left: 0px;
     padding-right: 0px;
