@@ -624,12 +624,12 @@ footer .contact-details {
   .flex-row > [class*='col-'] {
 			width: 50%;
 	}
-  .flex-row .col-md-4:nth-child(2n+1) {
+  /*.flex-row .col-md-4:nth-child(2n+1) {
     padding-right: 5px;
   }
   .flex-row .col-md-4:nth-child(2n) {
     padding-left: 5px;
-  }
+  }*/
 	.flex-row  {
     padding-left: 0px;
     padding-right: 0px;
