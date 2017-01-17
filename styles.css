@@ -231,14 +231,66 @@ transform: rotate(-135deg);
   background: #000;
   padding: 20px 30px;
 }
+.tshirt-section {
+  padding: 20px;
+  width: 75%;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tshirt-wrapper {
+  float:left;
+  max-width: 900px;
+}
+.tshirt-section h3 {
+  font-size: 35px;
+  font-weight: 300;
+  margin-top: 0px;
+  color: #ffffff;
+  line-height: 1.25;
+}
+.tshirt-image {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  float: right;
+  margin: 0px 20px;
+}
+.tshirt-image img {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  -ms-transition: -ms-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+.tshirt-image img:hover {
+  transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -webkit-transform:rotate(360deg);
+  cursor: pointer;
+}
+.tshirt-copy {
+  padding: 20px 0px;
+}
+.tshirt-copy a {
+  color: #fff;
+  text-decoration: none;
+}
 .side-img {
   padding: 0px;
+}
+.popup-slides {
+  display: none;
 }
 
 .jeff-photo {
   width: 100%;
   max-width: 450px;
   margin: 0 auto;
+}
+/*image gallery pop up*/
+.modal.and.carousel {
+  position: absolute; // Needed because the carousel overrides the position property
 }
 
 /*Portfolio Page*/
@@ -527,6 +579,16 @@ footer .contact-details {
       width: 100%;
       background: transparent;
     }
+    .tshirt-section {
+      padding: 20px;
+      width: 100%;
+      float: left;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .tshirt-wrapper {
+      max-width: 100%;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -540,6 +602,22 @@ footer .contact-details {
   }
   .navbar-toggle {
     margin-right: 15px;
+  }
+  .tshirt-image {
+    height: auto;
+    width: 100%;
+    display: block;
+    float: right;
+    margin: 0px 0px 20px;
+  }
+  .tshirt-image img {
+    height: 40%;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+  }
+  .tshirt-copy {
+    padding: 0px;
   }
 }
 
@@ -603,7 +681,6 @@ footer .contact-details {
     background: #000;
     padding: 20px;
   }
-
   .one-line {
    white-space: nowrap;
   }
@@ -657,6 +734,15 @@ footer .contact-details {
   }
   .brochures .col-md-3:nth-child(2n) {
     padding-left: 5px;
+  }
+  .thumbnail {
+    margin-bottom: 5px;
+  }
+  .tshirt-image img {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
   }
 }
 @media only screen and (max-width : 320px) {
