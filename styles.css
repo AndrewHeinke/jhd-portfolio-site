@@ -214,9 +214,6 @@ transform: rotate(-135deg);
   top: -90px;
 }
 
-.office-image {
-  width: 100%;
-}
 
 /*about us page styles*/
 .red.container {
@@ -327,52 +324,47 @@ width: 100%;
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 40px;
 }
 
-.cover-images img {
+.publication {
   margin: 0 auto;
   border: 3px solid white;
   opacity: 1;
+  transition: .5s ease;
 }
-.cover-images img:hover {
+.publication:hover {
   cursor: pointer;
-}
-
-.brochure-title {
-  margin-bottom: 30px;
+  border: 3px solid #e81f1f;
 }
 
 /*Contact Us Page*/
-.contact-us h1 {
-  font-size: 4.5em;
-  margin-bottom: 50px;
+.contact-us {
+  padding: 40px 0;
 }
 .contact-us p {
   color: #fff;
 }
-.contact-us-area {
-  background: #000;
-  padding: 30px;
+.office-image {
+  width: 100%;
 }
-
-.contact-us-area p {
-  font-size: 35px;
-  line-height: 1.25;
+.social-icons ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 40px;
 }
-.contact-us-area a {
-  color: #fff;
-}
-.contact-us-area .office-address {
-  margin-top: 50px;
-}
-.contact-us .office-image {
+.social-icons ul li {
   display: inline-block;
-  position: absolute;
-  float: right;
-  width: 413px;
-  height: auto;
+  padding: 0px 50px 0px 0px;
 }
-
+.social-icons i {
+  color: #ffffff;
+  font-size: 80px;
+  transition: .5s ease;
+}
+.social-icons i:hover {
+  color: #000;
+}
 
 /*footer styles*/
 .footer-tagline {
@@ -619,17 +611,12 @@ footer .contact-details {
     margin-bottom: 30px;
   }
   .portfolio {
-    padding: 20px 0;
+    padding: 20px 0 0px;
   }
   .flex-row > [class*='col-'] {
 			width: 100%;
 	}
-  /*.flex-row .col-md-4:nth-child(2n+1) {
-    padding-right: 5px;
-  }
-  .flex-row .col-md-4:nth-child(2n) {
-    padding-left: 5px;
-  }*/
+
 	.flex-row  {
     padding-left: 0px;
     padding-right: 0px;
