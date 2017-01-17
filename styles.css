@@ -631,4 +631,25 @@ footer .contact-details {
   .contact-us-area p {
     font-size: 28px;
   }
+  .social-icons ul li {
+    display: inline-block;
+    padding: 0px 40px 0px 0px;
+  }
+  .social-icons i {
+    color: #ffffff;
+    font-size: 60px;
+    transition: .5s ease;
+  }
+  .contact-us {
+    padding: 20px 0 30px;
+  }
+}
+@media only screen and (max-width : 320px) {
+  .navbar-toggle {
+    margin-right: 10px;
+  }
+  #logo {
+    width: 225px;
+    height: auto;
+  }
 }
