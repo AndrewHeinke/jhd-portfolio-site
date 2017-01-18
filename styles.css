@@ -38,8 +38,7 @@ p {
 
 .navbar {
     min-height: 100px;
-    /*box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10), 0 6px 6px rgba(0, 0, 0, 0.18);*/
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.09);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.09);
 }
 
 .navbar-fixed-top {
@@ -473,7 +472,8 @@ p {
 }
 .project-buttons .btn {
   padding: 20px 12px;
-  font-size: 1.25em;
+  font-size: 1.2em;
+  text-transform: uppercase;
 }
 
 /*Contact Us Page*/
@@ -689,6 +689,10 @@ footer .contact-details {
         .tshirt-wrapper {
             max-width: 100%;
         }
+        .project-buttons .btn {
+          padding: 20px 5px;
+          font-size: 1em;
+        }
     }
     /* Small Devices, Tablets */
     @media only screen and (max-width: 768px) {
@@ -747,7 +751,7 @@ footer .contact-details {
             color: #ffffff;
         }
         #logo {
-            width: 275px;
+            width: 260px;
             height: auto;
         }
         .navbar {
