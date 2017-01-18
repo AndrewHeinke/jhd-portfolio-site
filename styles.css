@@ -511,6 +511,50 @@ p {
     color: #000;
 }
 
+/*Project Page Styles*/
+.project-page {
+  background: #efefef;
+}
+.project-page .page-title h1 {
+  color: #000000;
+  font-size: 3em;
+  line-height: 1.25;
+}
+.project-container {
+  background: #ffffff;
+  border: 1px solid #ccc;
+}
+.project-details p {
+  margin-bottom: 10px;
+}
+.project-details strong {
+  text-transform: uppercase;
+}
+.project-content {
+  padding: 30px 0px;
+}
+.project-content img {
+  margin: 0 auto 40px;
+  display: block;
+}
+.full-width-img {
+  width: 100%;
+  height: auto;
+}
+.half-width-img {
+  width: 100%;
+  display: inline-block;
+}
+.half-width-img img:nth-child(2n+1) {
+  float: left;
+  width: 49%;
+}
+.half-width-img img:nth-child(2n) {
+  float: right;
+  width: 49%;
+}
+
+
 
 /*footer styles*/
 
@@ -735,6 +779,10 @@ footer .contact-details {
           padding: 15px 10px;
           font-size: .75em;
         }
+        .project-content img {
+          margin: 0 auto 20px;
+          display: block;
+        }
     }
     /* Extra Small Devices, Phones */
     @media only screen and (max-width: 480px) {
@@ -863,7 +911,20 @@ footer .contact-details {
         .content-wrapper {
           padding: 30px 0;
         }
-
+        .tshirt-copy h3 {
+          font-size: 2em;
+          line-height: 1.25;
+        }
+        .project-page .page-title h1 {
+          font-size: 2em;
+        }
+        .project-container {
+          background: #ffffff;
+          border-top: 1px solid #ccc;
+          border-bottom: 1px solid #ccc;
+          border-left: none;
+          border-right: none;
+        }
     }
     @media only screen and (max-width: 320px) {
         .jumbotron h1 {
