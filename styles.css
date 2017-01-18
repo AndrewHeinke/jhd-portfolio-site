@@ -313,6 +313,17 @@ p {
     max-width: 450px;
     margin: 0 auto;
 }
+.well {
+  min-height: 20px;
+  padding: 0px;
+  margin-bottom: 20px;
+  border: 3px solid #ffffff;
+  border-radius: 0px;
+}
+.carousel-inner img {
+  width: 100%;
+  height auto;
+}
 
 
 /*image gallery pop up*/
