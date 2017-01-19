@@ -248,7 +248,7 @@ p {
 }
 
 .tshirt-section {
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
     width: 75%;
     float: right;
     margin-top: 20px;
@@ -317,7 +317,7 @@ p {
   min-height: 20px;
   padding: 0px;
   margin-bottom: 20px;
-  border: 3px solid #ffffff;
+  border: none;
   border-radius: 0px;
 }
 .carousel-inner img {
@@ -527,7 +527,7 @@ p {
 
 /*Project Page Styles*/
 .project-page {
-  background: #efefef;
+  background: #ffffff;
 }
 .project-page .page-title h1 {
   color: #000000;
@@ -536,7 +536,7 @@ p {
 }
 .project-container {
   background: #ffffff;
-  border: 1px solid #ccc;
+  border: none;
 }
 .project-details p {
   margin-bottom: 10px;
@@ -797,9 +797,36 @@ footer .contact-details {
           margin: 0 auto 20px;
           display: block;
         }
+        .carousel-inner {
+          padding-bottom: 110px;
+          background: #000;
+        }
+        .carousel-indicators {
+          bottom: 0px;
+        }
+        .carousel-caption {
+          bottom: -100px;
+        }
+        .carousel-control .glyphicon-chevron-left {
+          top:40%;
+          left: 30%;
+        }
+        .carousel-control .glyphicon-chevron-right {
+          top:40%;
+          right: 30%;
+        }
     }
     /* Extra Small Devices, Phones */
     @media only screen and (max-width: 480px) {
+      .carousel-control .glyphicon-chevron-left {
+        top:35%;
+      }
+      .carousel-control .glyphicon-chevron-right {
+        top:35%;
+      }
+      .carousel-caption {
+        bottom: -85px;
+      }
         .jumbotron {
             background-position: 0px 300px;
         }
@@ -932,13 +959,10 @@ footer .contact-details {
         .project-page .page-title h1 {
           font-size: 2em;
         }
-        .project-container {
-          background: #ffffff;
-          border-top: 1px solid #ccc;
-          border-bottom: 1px solid #ccc;
-          border-left: none;
-          border-right: none;
+        .carousel-caption h3 {
+          font-size: 28px;
         }
+
     }
     @media only screen and (max-width: 320px) {
         .jumbotron h1 {
