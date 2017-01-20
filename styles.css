@@ -275,6 +275,13 @@ p {
     float: right;
     margin: 0px 20px;
 }
+.tshirt-image2 {
+  display: none;
+  float: right;
+  margin: 0px 20px;
+  height: 200px;
+  width: 200px;
+}
 
 .tshirt-image img {
     height: 100%;
@@ -283,12 +290,25 @@ p {
     -ms-transition: -ms-transform .8s ease-in-out;
     transition: transform .8s ease-in-out;
 }
+.tshirt-image2 img {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  -ms-transition: -ms-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
 
 .tshirt-image img:hover {
     transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     cursor: pointer;
+}
+.tshirt-image2 img:hover {
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  cursor: pointer;
 }
 
 .tshirt-copy {
@@ -793,15 +813,28 @@ footer .contact-details {
         .tshirt-image {
             height: auto;
             width: 100%;
-            display: block;
+            display: none;
             float: right;
             margin: 0px 0px 20px;
+        }
+        .tshirt-image2 {
+          height: auto;
+          width: 100%;
+          display: block;
+          float: right;
+          margin: 0px 0px 20px;
         }
         .tshirt-image img {
             height: 40%;
             width: 40%;
-            display: block;
+            display: none;
             margin: 0 auto;
+        }
+        .tshirt-image2 img {
+          height: 40%;
+          width: 40%;
+          display: block;
+          margin: 0 auto;
         }
         .tshirt-copy {
             padding: 0px;
